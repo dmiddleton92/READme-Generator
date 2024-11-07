@@ -45,7 +45,6 @@ function init() {
                 name: 'Repo',
                 message: 'What is your GitHub repo name?',
             }
-            //need to add project with in prompt**
 
         ])
         .then((data) => {
