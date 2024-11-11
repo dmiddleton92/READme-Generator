@@ -26,13 +26,18 @@ function init() {
             },
             {
                 type: 'input',
-                name: 'Installation',
+                name: 'installation',
                 message: "Please provide installation instructions for your project:",
             },
             {
                 type: 'input',
                 name: 'usage',
                 message: 'Please provide instructions and examples for use:',
+            },
+            {
+                type: 'input',
+                name: 'contributors',
+                message: 'Please provide your contributors names:',
             },
             {
                 type: 'list',
@@ -42,13 +47,18 @@ function init() {
             },
             {
                 type: 'input',
-                name: 'Repo',
+                name: 'repo',
                 message: 'What is your GitHub repo name?',
+            },
+            {
+                type: 'input',
+                name: 'test',
+                message: 'Please provide how to run your tests',
             }
 
         ])
         .then((data) => {
-            const filename = `${data.title.toLowerCase().split(' ').join('')}.md`;
+            const filename = `./Output/${data.title.toLowerCase().split(' ').join('')}.md`;
             writeToFile(filename, data);
         });
 }
