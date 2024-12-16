@@ -3,7 +3,7 @@ Need to save some time? Use my professional READme Generator to help build a REA
 
 - I created this application to help developers quickly build a READme so that they can focus on there projects. This application has a list of all the standard prompts needed to create a Perfect READme
 
-## Technolgies
+## Technologies
 - node.js
 
 ## Features
