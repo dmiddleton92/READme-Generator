@@ -7,7 +7,7 @@ Need to save some time? Use my professional READme Generator to help build a REA
 - node.js
 
 ## Features
-- Command-line with specific prompts to guide you in making a professional Readme for your repositorys
+- Command-line with specific prompts to guide you in making a professional Readme for your repositories
 
 ## User Story
 
