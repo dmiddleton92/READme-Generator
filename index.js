@@ -1,16 +1,16 @@
-// TODO: Include packages needed for this application
+//Packages needed for application
 import inquirer from 'inquirer';
 import fs from 'fs';
 import generateMarkdown from './utils/generateMarkdown.js';
 
-// TODO: Create a function to write README file
+//Function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, generateMarkdown(data), (err) =>
         err ? console.log(err) : console.log('Success!')
     );
 }
 
-// TODO: Create a function to initialize app
+//Function to initialize app
 function init() {
     inquirer
         .prompt([
