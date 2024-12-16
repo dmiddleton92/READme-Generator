@@ -42,4 +42,9 @@ Need to save some time? Use my professional READme Generator to help build a REA
 In order to run this program you must have node.js
 
 ## Video Demonstration 
+https://drive.google.com/file/d/1KJK21kqIZOMyFIr6skJqyRKjsq_KSx5Z/view --Video walkthrough
+
+## Github repository link
+
+https://github.com/dmiddleton92/READme-Generator
 
